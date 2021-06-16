@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crbook-common" />
+        <module name="crbook-config" />
+        <module name="crbook-zuul" />
+        <module name="crbook-book" />
+        <module name="crbook-user" />
+        <module name="shop-book" />
+        <module name="crbook-index" />
+        <module name="crbook-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="crbook-book" target="1.8" />
+      <module name="crbook-common" target="1.8" />
+      <module name="crbook-config" target="1.8" />
+      <module name="crbook-eureka" target="1.8" />
+      <module name="crbook-index" target="1.8" />
+      <module name="crbook-user" target="1.8" />
+      <module name="crbook-zuul" target="1.8" />
+      <module name="shop-book" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crbook-book" options="-parameters" />
+      <module name="crbook-config" options="-parameters" />
+      <module name="crbook-eureka" options="-parameters" />
+      <module name="crbook-index" options="-parameters" />
+      <module name="crbook-user" options="-parameters" />
+      <module name="crbook-zuul" options="-parameters" />
+      <module name="shop-book" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-config/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-index/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-user/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-book/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-common/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/crbook-eureka/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JavaSE-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

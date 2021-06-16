@@ -1,0 +1,13 @@
+
+v
+java:S1488*"[Immediately return this expression instead of assigning it to the temporary variable "res".(©æ´úÿÿÿÿ
+]
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ï‹î«8¿§ï™™/
+}
+java:S1488!"[Immediately return this expression instead of assigning it to the temporary variable "res".(©æ´úÿÿÿÿ8ß¿•¸/
+7
+java:S3751&"Make this method "public".(Ï³øÒ8ß¿•¸/
+7
+java:S3751"Make this method "public".(ï‹î«8¿§ï™™/
+]
+java:S4684&"@Replace this persistent entity with a simple POJO or DTO object.(Ï³øÒ8ß¿•¸/

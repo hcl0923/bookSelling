@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crbook-book/crbook-book.iml" filepath="$PROJECT_DIR$/crbook-book/crbook-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-common/crbook-common.iml" filepath="$PROJECT_DIR$/crbook-common/crbook-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-config/crbook-config.iml" filepath="$PROJECT_DIR$/crbook-config/crbook-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-eureka/crbook-eureka.iml" filepath="$PROJECT_DIR$/crbook-eureka/crbook-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-index/crbook-index.iml" filepath="$PROJECT_DIR$/crbook-index/crbook-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-user/crbook-user.iml" filepath="$PROJECT_DIR$/crbook-user/crbook-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crbook-zuul/crbook-zuul.iml" filepath="$PROJECT_DIR$/crbook-zuul/crbook-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-book.iml" filepath="$PROJECT_DIR$/shop-book.iml" />
+    </modules>
+  </component>
+</project>

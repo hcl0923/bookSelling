@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Happer 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace 命名空间==》接口完全限定名==》和接口进行绑定-->
+<mapper namespace="com.yc.crbookuser.dao.CrCartMapper">
+    <!--select标签==》@Select 不可冲突 返回实体类类型-->
+    <select id="selectByCnt" resultType="com.yc.crbook.bean.CrCart">
+        select * from cr_cart where cnt=#{cnt}
+    </select>
+    <!--动态SQL-->
+    <select id="selectByObj" resultType="com.yc.crbook.bean.CrCart">
+        select * from cr_cart
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if><!--第一个and会自定抹掉-->
+            <if test="uid!=null">
+                and uid=#{uid}
+            </if>
+            <if test="id!=null">
+                and bid=#{bid}
+            </if>
+        </where>
+
+    </select>
+</mapper>
